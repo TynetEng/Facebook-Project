@@ -1,0 +1,718 @@
+body {
+  background-color: #F0F2F5;
+}
+
+.container-fluid {
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar {
+  width: 100%;
+  height: 75px;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+.navbar .x-head {
+  display: flex;
+  align-items: center;
+}
+.navbar .crap {
+  align-items: center;
+}
+.navbar .crap .first {
+  background-color: #E4E6EB;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.navbar .crap .first:hover {
+  background-color: #D8DADF;
+}
+.navbar .crap .slip {
+  background-color: #E4E6EB;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.navbar .crap .slip:hover {
+  background-color: #D8DADF;
+}
+.navbar .crap .name {
+  display: none;
+}
+.navbar .cake {
+  display: none !important;
+}
+.navbar .x-h1 {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #0E8CF1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-left: 20px;
+  font-weight: bold;
+}
+.navbar input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.navbar .line {
+  align-items: center;
+  margin-left: 0px;
+  background-color: #F0F2F5;
+  width: 300px;
+  padding: 5px;
+  border-radius: 30px;
+  height: 40px;
+}
+.navbar .x-div {
+  position: relative;
+  margin-left: 30%;
+}
+.navbar .x-div .x-bowl {
+  border-bottom: 3px solid blue;
+  margin-left: 10px;
+}
+.navbar .x-div button {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  height: 50px;
+}
+.navbar .x-div button:hover {
+  background-color: #F2F2F2;
+  border-radius: 5px;
+}
+.navbar .x-div button i {
+  font-size: 25px;
+  color: grey;
+}
+.navbar .x-div .under {
+  position: absolute;
+  color: white;
+  background-color: #3f3b3b;
+  border-radius: 5px;
+  font-size: 12px;
+  margin-top: 80px;
+  display: none;
+  padding: 3px 10px !important;
+}
+
+.x-div button:hover .under {
+  display: block;
+}
+
+.x-left {
+  position: relative;
+  margin-left: 20%;
+}
+.x-left .live {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.x-left button {
+  background-color: transparent;
+  border: none;
+}
+.x-left button i {
+  color: black;
+}
+.x-left img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.x-left .hole {
+  padding: 5px;
+  align-items: center;
+}
+.x-left .hole:hover {
+  background-color: #D8DADF;
+  justify-content: center;
+  border-radius: 20px;
+  align-items: center;
+  padding: 5px;
+}
+.x-left .hole h6 {
+  color: black;
+}
+.x-left .sure {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #D8DADF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.x-left .sure:hover {
+  background-color: #DBE7F2;
+}
+.x-left .under2 {
+  display: none;
+  position: absolute;
+  background-color: #3b3636;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 60px;
+  font-size: 12px;
+}
+
+.x-left button:hover .under2 {
+  display: block;
+}
+
+.parent {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+.parent .body1 .large {
+  width: 70%;
+  height: 400px;
+  border-radius: 8px;
+  background: linear-gradient(lightgrey, grey);
+  margin: auto;
+}
+.parent .body1 .large img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid white;
+  position: absolute;
+  margin-top: 16%;
+  margin-left: 26%;
+}
+.parent .body1 .large .box {
+  background-color: white;
+  position: absolute;
+  border-radius: 5px;
+  padding: 3px 10px;
+  margin-top: 340px;
+  right: 240px;
+}
+.parent .body1 .large .box:hover {
+  background-color: #D8DADF;
+}
+.parent .body1 .large .cir i {
+  background-color: #F0F2F5;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 590px;
+  margin-top: 372px;
+}
+.parent .body1 .large .cir i:hover {
+  background-color: #D8DADF;
+}
+.parent .body1 .claim {
+  padding-top: 20px;
+  text-align: center;
+}
+.parent .body1 .claim h6 {
+  color: blue;
+}
+.parent .body1 .claim h6:hover {
+  text-decoration: underline;
+}
+.parent .body1 .lime {
+  margin-left: 200px;
+  justify-content: space-between;
+}
+.parent .body1 .lime .case {
+  display: none !important;
+}
+.parent .body1 .lime .bag {
+  display: flex;
+  justify-content: space-between;
+}
+.parent .body1 div {
+  padding-left: 20px;
+}
+.parent .body1 .x-post {
+  border-bottom: 3px solid blue;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-left: 3px;
+}
+.parent .body1 .gal {
+  padding: 10px;
+}
+.parent .body1 .gal:hover {
+  background-color: #F2F2F2;
+  padding: 10px;
+  border-radius: 3px;
+}
+.parent .body1 .team {
+  background-color: #F2F2F2;
+  padding-top: 10px;
+  padding: 10px 10px;
+  border-radius: 7px;
+}
+.parent .body1 .team:hover {
+  background-color: #DBE7F2;
+}
+.parent .body1 .name {
+  padding-top: 15px;
+  color: white;
+  font-weight: bold;
+  background-color: #1877F2;
+  padding: 5px 5px;
+  border-radius: 7px;
+}
+.parent .body2 {
+  margin: auto;
+  margin-top: 20px;
+  border: none;
+  overflow-x: scroll;
+}
+.parent .body2 .show {
+  width: 150px;
+  height: 250px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+  margin-left: 10px;
+}
+.parent .body2 .show i {
+  color: blue;
+  height: 15px;
+  border-radius: 50%;
+}
+.parent .body2 .show h6:hover {
+  text-decoration: underline;
+}
+.parent .body2 .show .fill {
+  width: 150px;
+  height: 150px;
+  border-radius: 5px 5px 0px 0px;
+}
+.parent .body2 .show .full {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.parent .body2 .show .like {
+  font-size: 14px;
+  color: grey;
+}
+.parent .body2 .show .dew {
+  background-color: #DBE7F2;
+  width: 130px;
+  border-radius: 4px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.parent .body2 .show .dew:hover {
+  background-color: #D8DADF;
+}
+.parent .body2 .show .dew .dem {
+  color: blue;
+  font-weight: bold;
+}
+.parent .body3 {
+  margin: auto;
+  margin-top: 20px;
+  margin-left: 200px;
+}
+.parent .body3 .leam {
+  border: none;
+  border-radius: 5px;
+}
+.parent .body3 .leam .jerk {
+  margin: auto;
+}
+.parent .body3 .leam .jerk div {
+  border-radius: 5px;
+  margin: 5px;
+  font-weight: bold;
+}
+.parent .body3 .leam .jerk .rim:hover {
+  background-color: #DBE7F2;
+}
+.parent .body3 .leam .jerk .rain:hover {
+  background-color: blueviolet;
+  border: 3px solid red;
+}
+.parent .body3 .leam .wema {
+  display: flex;
+  justify-content: space-between;
+}
+.parent .body3 .leam .wema .wem {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: auto;
+}
+.parent .body3 .leam .wema button {
+  background-color: transparent;
+  border: none;
+  margin-left: 2px;
+  float: right;
+}
+.parent .body3 .leam .wema button:hover {
+  background-color: #F2F2F2;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-left: 2px;
+}
+.parent .body3 .lame {
+  border-radius: 5px;
+  border: none;
+}
+.parent .body3 .lame .side div {
+  border: none;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  background-color: #E4E6EB;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.parent .body3 .lame .side div:hover {
+  background-color: lightgray;
+}
+.parent .body3 .meal {
+  border: none;
+  border-radius: 5px;
+}
+.parent .body3 .meal h5:hover {
+  text-decoration: underline;
+}
+.parent .body3 .meal span {
+  color: #E4E6EB;
+  font-size: 18px;
+  padding: 5px;
+}
+.parent .body3 .meal span:hover {
+  background-color: #D8DADF;
+  padding: 5px;
+  border-radius: 5px;
+}
+.parent .body3 .team {
+  border: none;
+  border-radius: 5px;
+}
+.parent .mother {
+  width: 100% !important;
+}
+.parent .mother .body4 {
+  margin-left: 10px;
+  width: 100% !important;
+}
+.parent .mother .body4 .unit {
+  border: none;
+  border-radius: 5px;
+  width: 100% !important;
+}
+.parent .mother .body4 .unit .lik {
+  padding-bottom: 10px;
+}
+.parent .mother .body4 .unit .lik img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.parent .mother .body4 .unit .lik input {
+  background-color: #E4E6E9;
+  outline: none;
+  border: none;
+  margin-left: 10px;
+  padding: 10px;
+  border-radius: 40px;
+  width: 90% !important;
+}
+.parent .mother .body4 .unit .lik input:hover {
+  background-color: #D8DADF;
+}
+.parent .mother .body4 .unit .role {
+  padding: 5px;
+}
+.parent .mother .body4 .unit .role:hover {
+  background-color: #E4E6E9;
+  padding: 5px;
+  border-radius: 5px;
+}
+.parent .mother .body4 .rain {
+  border: none;
+  border-radius: 5px;
+  width: 100% !important;
+}
+.parent .mother .body4 .rain .cake {
+  margin-left: 40%;
+}
+.parent .mother .body4 .rain .cake div {
+  background-color: #E4E6E9;
+  margin: 0px 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.parent .mother .body4 .rain .cake div:hover {
+  background-color: #D8DADF;
+}
+.parent .mother .body4 .rain .moth {
+  border-bottom: 3px solid blue;
+  color: blue;
+  font-size: 18px;
+  padding: 5px 70px;
+}
+.parent .mother .body4 .rain .mote {
+  color: grey;
+  font-size: 18px;
+  padding: 5px 70px;
+}
+.parent .mother .body4 .rain .mote:hover {
+  background-color: #D8DADF;
+  padding: 5px 70px;
+  border-radius: 5px;
+}
+.parent .mother .body4 .ever {
+  border: none;
+  border-radius: 5px;
+  width: 100% !important;
+}
+.parent .mother .body4 .ever .glasses {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.parent .mother .body4 .ever .bold {
+  font-weight: bold;
+}
+.parent .mother .body4 .ever .bold:hover {
+  text-decoration: underline;
+}
+.parent .mother .body4 .ever .neme {
+  color: grey;
+  font-size: 12px;
+}
+.parent .mother .body4 .ever .glass {
+  width: 100%;
+  border-radius: 10px;
+}
+.parent .mother .body4 .p {
+  background-color: #E4E6EB;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.parent .mother .body4 .v {
+  background-color: red;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2px;
+}
+.parent .mother .body4 .claim {
+  color: gray;
+}
+.parent .mother .body4 .claim:hover {
+  text-decoration: underline;
+}
+.parent .mother .body4 .theme {
+  padding: 5px 20px;
+}
+.parent .mother .body4 .theme:hover {
+  background-color: #D8DADF;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+.parent .mother .body4 .cage {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.parent .mother .body4 input {
+  border: none;
+  outline: none;
+  background-color: #E4E6E9;
+  border-radius: 20px;
+  padding: 10px;
+  margin-left: 2%;
+  width: 90%;
+}
+.parent .mother .body4 .k {
+  font-size: 12px;
+}
+
+@media (max-width: 760px) {
+  .container-fluid, .col-sm {
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+
+  .navbar {
+    width: 100% !important;
+    height: 110px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+  }
+  .navbar .crap {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px !important;
+    margin: 0px !important;
+  }
+  .navbar .crap .sew {
+    display: flex;
+    margin-left: 0px !important;
+    width: 100% !important;
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+  .navbar .crap .first {
+    display: inherit !important;
+  }
+  .navbar .crap .first i {
+    color: grey !important;
+  }
+  .navbar .crap .slip {
+    display: inherit !important;
+    margin-left: 10px;
+  }
+  .navbar .crap .slip i {
+    color: gray !important;
+  }
+  .navbar .crap .line {
+    display: none !important;
+  }
+  .navbar .crap .name {
+    display: inherit;
+  }
+  .navbar .crap .x-h1 {
+    display: none;
+  }
+  .navbar .cake {
+    display: inherit !important;
+  }
+  .navbar .x-head {
+    display: block !important;
+    margin: 0px !important;
+    width: 100% !important;
+  }
+  .navbar .x-left {
+    display: none !important;
+    margin: 0px !important;
+  }
+  .navbar .x-div {
+    margin: 0px !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    width: 100% !important;
+  }
+  .navbar .x-div button {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .navbar .x-div button a i {
+    font-size: 20px;
+  }
+
+  .parent {
+    margin: 0px !important;
+    padding: 0px !important;
+    display: block !important;
+    width: 100% !important;
+  }
+  .parent .body1 {
+    width: 100% !important;
+  }
+  .parent .body1 .large {
+    width: 100% !important;
+    margin: auto !important;
+    height: 200px;
+  }
+  .parent .body1 .large img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 5px solid white;
+    position: absolute;
+    margin-top: 32%;
+    margin-left: 30% !important;
+  }
+  .parent .body1 .large .box {
+    display: none !important;
+  }
+  .parent .body1 .lime .abk {
+    display: none !important;
+  }
+  .parent .body1 .lime .bag {
+    display: inherit !important;
+  }
+  .parent .body2 {
+    width: 100% !important;
+    overflow-x: scroll;
+  }
+  .parent .body3 {
+    width: 100% !important;
+  }
+  .parent .body3 .kind {
+    display: none !important;
+    width: 100% !important;
+  }
+  .parent .deal {
+    width: 100% !important;
+    margin-left: -60% !important;
+  }
+  .parent .mother {
+    width: 100% !important;
+  }
+  .parent .mother .body4 {
+    width: 100% !important;
+  }
+  .parent .mother .body4 .unit {
+    width: 100% !important;
+  }
+  .parent .mother .body4 .unit .lik input {
+    width: 90% !important;
+  }
+  .parent .mother .body4 .unit .role {
+    width: 100% !important;
+  }
+  .parent .mother .body4 .rain {
+    width: 100% !important;
+  }
+  .parent .mother .body4 .rain .cake {
+    margin-left: 25% !important;
+  }
+  .parent .mother .body4 .ever {
+    width: 100% !important;
+  }
+}
+
+/*# sourceMappingURL=fb-profile-project.css.map */

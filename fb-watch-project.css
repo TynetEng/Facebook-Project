@@ -1,0 +1,489 @@
+body {
+  background-color: #F0F2F5;
+}
+
+.container-fluid {
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar {
+  width: 100%;
+  height: 75px;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+.navbar .x-head {
+  display: flex;
+  align-items: center;
+}
+.navbar .crap {
+  align-items: center;
+}
+.navbar .crap .first {
+  background-color: #E4E6EB;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.navbar .crap .first:hover {
+  background-color: #D8DADF;
+}
+.navbar .crap .slip {
+  background-color: #E4E6EB;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.navbar .crap .slip:hover {
+  background-color: #D8DADF;
+}
+.navbar .crap .name {
+  display: none;
+}
+.navbar .cake {
+  display: none !important;
+}
+.navbar .x-h1 {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #0E8CF1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-left: 20px;
+  font-weight: bold;
+}
+.navbar input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.navbar .line {
+  align-items: center;
+  margin-left: 0px;
+  background-color: #F0F2F5;
+  width: 300px;
+  padding: 5px;
+  border-radius: 30px;
+  height: 40px;
+}
+.navbar .x-div {
+  position: relative;
+  margin-left: 30%;
+}
+.navbar .x-div .x-bowl {
+  border-bottom: 3px solid blue;
+  margin-left: 10px;
+}
+.navbar .x-div button {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  height: 50px;
+}
+.navbar .x-div button:hover {
+  background-color: #F2F2F2;
+  border-radius: 5px;
+}
+.navbar .x-div button i {
+  font-size: 25px;
+  color: grey;
+}
+.navbar .x-div .under {
+  position: absolute;
+  color: white;
+  background-color: #3f3b3b;
+  border-radius: 5px;
+  font-size: 12px;
+  margin-top: 80px;
+  display: none;
+  padding: 3px 10px !important;
+}
+
+.x-div button:hover .under {
+  display: block;
+}
+
+.x-left {
+  position: relative;
+  margin-left: 20%;
+}
+.x-left .live {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.x-left button {
+  background-color: transparent;
+  border: none;
+}
+.x-left button i {
+  color: black;
+}
+.x-left img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.x-left .hole {
+  padding: 5px;
+  align-items: center;
+}
+.x-left .hole:hover {
+  background-color: #D8DADF;
+  justify-content: center;
+  border-radius: 20px;
+  align-items: center;
+  padding: 5px;
+}
+.x-left .hole h6 {
+  color: black;
+}
+.x-left .sure {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #D8DADF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.x-left .sure:hover {
+  background-color: #DBE7F2;
+}
+.x-left .under2 {
+  display: none;
+  position: absolute;
+  background-color: #3b3636;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 60px;
+  font-size: 12px;
+}
+
+.x-left button:hover .under2 {
+  display: block;
+}
+
+@media (max-width: 760px) {
+  .container-fluid, .col-sm {
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+
+  .navbar {
+    width: 100% !important;
+    height: 110px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+  }
+  .navbar .crap {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px !important;
+    margin: 0px !important;
+  }
+  .navbar .crap .sew {
+    display: flex;
+    margin-left: 0px !important;
+    width: 100% !important;
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+  .navbar .crap .first {
+    display: inherit !important;
+  }
+  .navbar .crap .first i {
+    color: grey !important;
+  }
+  .navbar .crap .slip {
+    display: inherit !important;
+    margin-left: 10px;
+  }
+  .navbar .crap .slip i {
+    color: gray !important;
+  }
+  .navbar .crap .line {
+    display: none !important;
+  }
+  .navbar .crap .name {
+    display: inherit;
+  }
+  .navbar .crap .x-h1 {
+    display: none;
+  }
+  .navbar .cake {
+    display: inherit !important;
+  }
+  .navbar .x-head {
+    display: block !important;
+    margin: 0px !important;
+    width: 100% !important;
+  }
+  .navbar .x-left {
+    display: none !important;
+    margin: 0px !important;
+  }
+  .navbar .x-div {
+    margin: 0px !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    width: 100% !important;
+  }
+  .navbar .x-div button {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .navbar .x-div button a i {
+    font-size: 20px;
+  }
+}
+.parent {
+  margin-top: 80px;
+}
+.parent aside {
+  border: none;
+  position: fixed;
+}
+.parent aside .g {
+  font-size: 25px;
+  background-color: #D8DADF;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.parent aside .g:hover {
+  background-color: #E4E6EB;
+}
+.parent aside .bay {
+  background-color: #D8DADF;
+  padding: 5px;
+  border-radius: 30px;
+  align-items: center;
+}
+.parent aside .bay input {
+  border: none !important;
+  outline: none !important;
+  background-color: transparent;
+}
+.parent aside .box {
+  display: block;
+}
+.parent aside .box div {
+  color: black !important;
+  padding-top: 10px;
+}
+.parent aside .box div a {
+  color: black;
+  align-items: center;
+}
+.parent aside .box div a i {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #E4E6EB;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.parent aside .box div a span {
+  color: gray;
+  padding-left: 20px;
+}
+.parent aside .box div a:hover {
+  background-color: #D8DADF;
+  border-radius: 10px;
+}
+.parent aside .cup i {
+  color: white;
+  background-color: #50BDE0;
+  width: 30px;
+  border-radius: 50%;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.parent aside .cup span {
+  color: gray;
+}
+.parent aside .cup .tube:hover {
+  background-color: #D8DADF;
+  border-radius: 10px;
+}
+.parent .main {
+  margin-left: 40%;
+}
+.parent .main .mean {
+  border: none;
+  border-radius: 10px;
+  width: 100% !important;
+}
+.parent .main .mean img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.parent .main .mean video {
+  width: 100%;
+}
+.parent .main .mean .hem {
+  margin-left: 50%;
+  padding: 0px !important;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.parent .main .mean .hem:hover {
+  background-color: #E4E6EB;
+}
+.parent .main .mean .case {
+  color: gray;
+  font-size: 12px;
+}
+.parent .main .mean .b {
+  line-height: 0.3;
+}
+.parent .main .mean .game {
+  display: flex;
+  justify-content: space-between;
+}
+.parent .main .mean .game .tt div {
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+.parent .main .mean .game .tt div:hover {
+  background-color: #E4E6EB;
+}
+.parent .main .mean .game .tt div span {
+  color: gray;
+  font-weight: bold;
+}
+.parent .main .mean .game .te {
+  padding: 5px 3px;
+}
+.parent .main .mean .game .te .ret:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 760px) {
+  .container-fluid, .col-sm {
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+
+  .navbar {
+    width: 100% !important;
+    height: 110px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+  }
+  .navbar .crap {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px !important;
+    margin: 0px !important;
+  }
+  .navbar .crap .sew {
+    display: flex;
+    margin-left: 0px !important;
+    width: 100% !important;
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+  .navbar .crap .first {
+    display: inherit !important;
+  }
+  .navbar .crap .first i {
+    color: grey !important;
+  }
+  .navbar .crap .slip {
+    display: inherit !important;
+    margin-left: 10px;
+  }
+  .navbar .crap .slip i {
+    color: gray !important;
+  }
+  .navbar .crap .line {
+    display: none !important;
+  }
+  .navbar .crap .name {
+    display: inherit;
+  }
+  .navbar .crap .x-h1 {
+    display: none;
+  }
+  .navbar .cake {
+    display: inherit !important;
+  }
+  .navbar .x-head {
+    display: block !important;
+    margin: 0px !important;
+    width: 100% !important;
+  }
+  .navbar .x-left {
+    display: none !important;
+    margin: 0px !important;
+  }
+  .navbar .x-div {
+    margin: 0px !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    width: 100% !important;
+  }
+  .navbar .x-div button {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .navbar .x-div button a i {
+    font-size: 20px;
+  }
+
+  .parent {
+    margin-top: 120px !important;
+  }
+  .parent aside {
+    display: none !important;
+  }
+  .parent .main {
+    margin-left: 0px !important;
+    width: 100% !important;
+  }
+  .parent .main .mean {
+    width: 100% !important;
+  }
+  .parent .main .mean .hem {
+    margin-left: 20% !important;
+  }
+  .parent .main .mean .game .tt span {
+    display: none !important;
+  }
+}
+
+/*# sourceMappingURL=fb-watch-project.css.map */
